@@ -11,15 +11,14 @@ namespace HelloDynamics365
         {
             // Azure app registration details
             const string clientId = "60d13472-6aff-4b26-a224-bc8055ad0097";
-            const string clientSecret = "wIE8Q~R_8YgLmZPxPR1~z7WS2gaZAbgzPT--Sdy7";
             const string tenantId = "041f15fa-0c78-4cdc-897d-b522556663d7";
             const string dynamicsUrl = "https://org76451050.crm.dynamics.com";
+            const string asdfasdfa = "addsecretkeyheare";
 
-            
             string connectionString = $"AuthType=ClientSecret;" +
                                        $"Url={dynamicsUrl};" +
                                        $"ClientId={clientId};" +
-                                       $"ClientSecret={clientSecret};" +
+                                       $"ClientSecret={asdfasdfa};" +
                                        $"LoginPrompt=Never;" +
                                        $"Authority=https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token";
 
